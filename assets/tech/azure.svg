@@ -1,4 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
-  <rect width="80" height="80" rx="12" fill="#0078D4"/>
-  <text x="40" y="50" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Azure</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="azure-a" x1="58.972" x2="37.191" y1="9.373" y2="73.801" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#114a8b"/>
+      <stop offset="1" stop-color="#0669bc"/>
+    </linearGradient>
+    <linearGradient id="azure-b" x1="60.069" x2="53.793" y1="32.628" y2="34.862" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity=".3"/>
+      <stop offset=".071" stop-opacity=".2"/>
+      <stop offset=".321" stop-opacity=".1"/>
+      <stop offset=".623" stop-opacity=".05"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="azure-c" x1="50.003" x2="74.415" y1="9.324" y2="73.758" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ccbf4"/>
+      <stop offset="1" stop-color="#2892df"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#azure-a)" d="M33.338 14.494h24.506L32.755 79.5a3.106 3.106 0 0 1-2.942 2.119H13.07a3.106 3.106 0 0 1-2.941-4.087l22.267-60.92a3.106 3.106 0 0 1 2.942-2.118z"/>
+  <path fill="#0078d4" d="M69.045 56.42H38.62a1.386 1.386 0 0 0-.948 2.4l19.63 18.4a3.129 3.129 0 0 0 2.138.844h18.252z"/>
+  <path fill="url(#azure-b)" d="M33.338 14.494a3.07 3.07 0 0 0-2.925 2.162L8.153 77.471a3.106 3.106 0 0 0 2.92 4.148h17.066a3.218 3.218 0 0 0 2.608-2.12l4.868-13.315 13.949 13.067a3.19 3.19 0 0 0 1.967.803h18.137l-7.918-22.633-26.62.007 16.212-42.934z"/>
+  <path fill="url(#azure-c)" d="M62.662 14.594a3.106 3.106 0 0 0-2.942-2.1H33.566a3.106 3.106 0 0 1 2.941 2.1l22.267 60.92a3.106 3.106 0 0 1-2.941 4.087h26.153a3.106 3.106 0 0 0 2.942-4.087z"/>
 </svg>

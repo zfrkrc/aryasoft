@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
-  <text x="100" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#003C8F" text-anchor="middle">UEFA</text>
-  <circle cx="30" cy="40" r="15" fill="none" stroke="#003C8F" stroke-width="3"/>
+  <circle cx="40" cy="40" r="25" fill="none" stroke="#004A99" stroke-width="4"/>
+  <path fill="#004A99" d="M35 30l15 10-15 10V30z"/>
+  <text x="120" y="48" font-family="Arial Black, sans-serif" font-size="26" font-weight="900" fill="#004A99" text-anchor="middle">UEFA</text>
 </svg>

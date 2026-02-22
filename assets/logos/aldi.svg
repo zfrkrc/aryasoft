@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
-  <rect x="30" y="20" width="140" height="40" rx="4" fill="#00548C"/>
-  <text x="100" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FF6600" text-anchor="middle">ALDI</text>
+  <rect x="20" y="10" width="160" height="60" fill="#00529B"/>
+  <rect x="25" y="15" width="150" height="50" fill="#FFF"/>
+  <text x="100" y="52" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#00529B" text-anchor="middle">ALDI</text>
+  <rect x="30" y="58" width="140" height="5" fill="#EE7700"/>
 </svg>
