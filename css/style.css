@@ -435,72 +435,25 @@ input, textarea, select {
     50% { transform: translateY(-20px); }
 }
 
-/* Server Animation */
+/* Hero Banner Image */
 .hero-main-visual {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
-}
-
-.server-animation {
-    position: relative;
     width: 100%;
-    height: 100%;
+    max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.server-rack {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 24px;
-    background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
+.hero-banner-img {
+    width: 100%;
+    height: auto;
     border-radius: var(--radius-xl);
     box-shadow: var(--shadow-2xl);
-}
-
-.server-unit {
-    width: 200px;
-    height: 40px;
-    background: var(--gray-700);
-    border-radius: var(--radius-sm);
-    position: relative;
-    overflow: hidden;
-}
-
-.server-unit::before {
-    content: '';
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 8px;
-    height: 8px;
-    background: var(--gray-500);
-    border-radius: 50%;
-}
-
-.server-unit.active::before {
-    background: var(--accent-green);
-    box-shadow: 0 0 10px var(--accent-green);
-    animation: pulse 2s ease-in-out infinite;
-}
-
-.server-unit::after {
-    content: '';
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 60px;
-    height: 4px;
-    background: var(--gray-600);
-    border-radius: 2px;
+    animation: float 6s ease-in-out infinite;
 }
 
 @keyframes pulse {
@@ -887,6 +840,11 @@ input, textarea, select {
     font-size: var(--font-size-lg);
 }
 
+.rating .stars-img {
+    height: 20px;
+    width: auto;
+}
+
 .testimonial-dots {
     display: flex;
     justify-content: center;
@@ -1009,36 +967,19 @@ input, textarea, select {
     position: relative;
 }
 
-.turkey-map {
+.usa-map {
     position: relative;
     background: var(--white);
     border-radius: var(--radius-2xl);
     padding: var(--spacing-xl);
     box-shadow: var(--shadow-lg);
+    overflow: hidden;
 }
 
-.map-svg {
+.map-image {
     width: 100%;
     height: auto;
-}
-
-.map-path {
-    fill: var(--primary-bg);
-    stroke: var(--primary);
-    stroke-width: 2;
-}
-
-.city-dot {
-    fill: var(--primary);
-}
-
-.city-dot.pulse {
-    animation: cityPulse 2s ease-in-out infinite;
-}
-
-@keyframes cityPulse {
-    0%, 100% { r: 6; opacity: 1; }
-    50% { r: 10; opacity: 0.7; }
+    border-radius: var(--radius-lg);
 }
 
 .location-badge {
@@ -1626,7 +1567,7 @@ input, textarea, select {
         font-size: var(--font-size-2xl);
     }
     
-    .turkey-map {
+    .usa-map {
         padding: var(--spacing-md);
     }
     
